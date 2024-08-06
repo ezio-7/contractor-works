@@ -1,0 +1,51 @@
+/* AddWork.css */
+.add-work-container {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+  }
+  
+  .add-work-container h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    color: #333;
+  }
+  
+  .add-work-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-work-container form input,
+  .add-work-container form textarea,
+  .add-work-container form button {
+    margin-bottom: 1em;
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .add-work-container form input[type="date"] {
+    max-width: 200px;
+  }
+  
+  .add-work-container form textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .add-work-container form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-work-container form button:hover {
+    background-color: #ff6347;
+  }
+  
